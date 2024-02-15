@@ -1,0 +1,325 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0 1.5% 0 1.5%;
+    /*font-family: 'Lato', Arial, sans-serif; spn*/
+    font-family: 'Roboto', sans-serif;
+    /* background-image: url('banner-image.jpg'); */
+    background-color: #ffffff;
+    /* background-color: black; */
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header {
+    /* position: fixed;
+    width: 100%;
+    z-index: 1; */
+    font-size: larger;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #43bff3;
+    color: #000000;
+    padding: 30px;
+}
+
+.logo {
+    color: #000000;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.logo p {
+    padding-top: 10px;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav li {
+    margin-right: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav li .active {
+    color: #000000;
+}
+
+.nav li a:hover {
+    transition-delay: 80ms;
+    color: #000000;
+}
+
+.banner {
+    /* background: #163269; */
+    /* background: linear-gradient(rgba(0, 0, 0, 0.481), rgba(0, 0, 0, 0.071)); */
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.595), rgba(0, 0, 0, 0.574)), url('image/bg6.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 100px 0;
+}
+
+.banner-contact {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.595), rgba(0, 0, 0, 0.574)), url('image/bg6.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 50px 0;
+}
+
+.banner h1 {
+    letter-spacing: 5px;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.banner-content p {
+    letter-spacing: 5px;
+    font-size: 18px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #191818;
+    box-shadow: 0px 1px 15px #ffffff91;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    margin: 2%;
+}
+
+.btn:hover {
+    letter-spacing: 0.5px;
+    color: #191818;
+    transition-delay: 80ms;
+    background: white;
+}
+
+.blog-list {
+    display: grid;
+    background-color: #e8e8e8;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    padding: 20px;
+}
+
+.blog-card {
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.blog-card:hover {
+    background-color: rgb(218, 218, 218);
+    animation-delay: 100ms;
+}
+
+.about {
+    margin-top: 0.7%;
+    text-align: right;
+    letter-spacing: 0.67px;
+    color: white;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.683)), url('image/bg5.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 5% 10% 5% 15%;
+}
+
+.about h2 {
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.blog {
+    margin-top: 0.7%;
+    letter-spacing: 0.67px;
+    text-align: left;
+    padding: 5% 15% 5% 10%;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.683)), url('image/bg4.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.blog h2 {
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.idh {
+    font-size: 17px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.idh-ul {
+    border-bottom: 2px solid #000000;
+    border-radius: 20px;
+    margin: 10px 0 20px 0;
+    max-width: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+}
+
+.other {
+    justify-content: space-between;
+    background-color: rgb(210, 210, 210);
+    flex-basis: 50%;
+    display: flex;
+    /* padding-left: 15%;
+    padding-right: 20%; */
+    padding: 3.5% 7% 0 7%;
+    padding-bottom: 30px;
+}
+
+.otr-fct {
+    margin-top: 0.7%;
+    background-color: rgb(210, 210, 210);
+    text-align: center;
+    padding: 2.5%;
+}
+
+.otr-cont {
+    text-align: center;
+    /* padding: 4% 7% 4% 7%; */
+    padding: 10px;
+    margin: 0 1.5% 0 1.5%;
+    border-radius: 12px;
+    justify-content: center;
+    background-color: rgb(255, 239, 239);
+    box-shadow: 0 0 10px #00000091;
+}
+
+.otr-cont img {
+    margin-bottom: 25px;
+    box-shadow: 0 0 10px #00000091;
+    border-radius: 7px 7px 0 0;
+    width: 100%;
+    height: 300px;
+}
+
+.otr-cont h2 {
+    color: #163269;
+    font-size: 21px;
+    padding-bottom: 10px;
+}
+
+.contact {
+    margin-top: 15px;
+    padding: 7%;
+    background-color: #ffeeee;
+}
+
+.contact hr {
+    width: 525px;
+}
+
+.form-cont {
+    border: 2px #191818 dashed;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.sendbtn {
+    max-width: 200px;
+}
+
+form button {
+    max-width: 200px;
+}
+
+.footer {
+    margin-top: 0.7%;
+    text-align: center;
+    background-color: #43bff3;
+    color: white;
+}
+
+.fcontent {
+    justify-content: space-between;
+    padding: 3.5% 20% 0 20%;
+    flex-basis: 50%;
+    display: flex;
+}
+
+.inner-div {
+    padding: 2% 5% 5% 5%;
+}
+
+.copyright {
+    padding: 10px;
+    background-color: #191818;
+}
+
+@media screen and (max-width:900px) {
+    body {
+        padding: 0 2.5% 0 2.5%;
+    }
+    .fcontent {
+        padding: 7% 0 7% 0;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .other {
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 5% 12% 5% 12%;
+        background-color: rgb(210, 210, 210);
+    }
+    .otr-cont {
+        padding: 40px;
+        margin-bottom: 3%;
+        background-color: rgb(255, 239, 239);
+    }
+    .otr-cont img {
+        width: 100%;
+        height: 100%;
+    }
+    .form-cont {
+        max-width: 300px;
+    }
+    .contact hr {
+        max-width: 320px;
+    }
+    .logo {
+        font-size: 18px;
+    }
+    .logo p {
+        display: none;
+    }
+}
